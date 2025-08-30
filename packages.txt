@@ -1,0 +1,5 @@
+streamlit
+google-generativeai
+python-dotenv
+pdfkit
+python-docx

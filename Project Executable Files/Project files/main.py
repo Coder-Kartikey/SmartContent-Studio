@@ -10,7 +10,7 @@ from docx import Document
 import time
 
 load_dotenv()
-genai_Api_Key = os.getenv("API_KEY")
+genai_Api_Key = st.secrets["API_KEY"]
 
 genai.configure(api_key=genai_Api_Key)
 
