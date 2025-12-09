@@ -24,7 +24,7 @@ generation_config = {
 
 def generate_resume(name, job_title, skills, experience_title, experience_company, experience_start_date, experience_end_date, experience_description, education_degree, education_major, education_university, education_start_date, education_end_date, template, custom_prompt):
         model=genai.GenerativeModel(
-                model_name="gemini-2.5-flash",
+                model_name="gemini-2.5-pro",
                 generation_config=generation_config,
         )
 
